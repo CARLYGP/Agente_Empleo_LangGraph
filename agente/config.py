@@ -16,7 +16,7 @@ POR_DEFECTO = {
     # Candidato
     "nombre": "Carlos Andrés Galán Pérez",
     "nombre_corto": "Carlos",
-    "cv_es": str(Path.home() / "Desktop" / "Carlos Galan Perez - CV Ingeniero de IA (Español).pdf"),
+    "cv_es": str(Path.home() / "Desktop" / "Carlos Galan - CV (Español).pdf"),
     "cv_en": str(Path.home() / "Desktop" / "Carlos Galan Perez - CV (English).pdf"),
     # Postulación: "aprobacion" (el grafo se detiene hasta que apruebes), "automatico" o "apagado"
     "modo_postulacion": "aprobacion",
