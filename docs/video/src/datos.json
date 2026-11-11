@@ -1,0 +1,140 @@
+{
+  "hilo": "demo-20261111-010315",
+  "revisadas": 5,
+  "descartes": {
+    "mucha experiencia": 1
+  },
+  "ofertas": [
+    {
+      "titulo": "Ingeniero de IA Junior (agentes LLM)",
+      "empresa": "Andina Analytics SAS",
+      "fuente": "Computrabajo",
+      "url": "https://demo.invalid/oferta/1",
+      "pasa": true,
+      "llm": 78,
+      "fortalezas": [
+        "Experiencia con agentes LLM y LangGraph",
+        "Desarrollo en Python",
+        "Integración con APIs REST",
+        "Uso de Power BI y automatización con Power Automate",
+        "Visión por computador y detección de objetos"
+      ],
+      "idioma": "es",
+      "mercado": 94,
+      "final": 84,
+      "id": 2,
+      "correo": "talento@andina-analytics.invalid",
+      "intentos": 1,
+      "aprobada": true
+    },
+    {
+      "titulo": "Analista de Datos Junior - Power BI",
+      "empresa": "Lácteos del Valle",
+      "fuente": "Computrabajo",
+      "url": "https://demo.invalid/oferta/2",
+      "pasa": true,
+      "llm": 85,
+      "fortalezas": [
+        "Power BI y DAX avanzado",
+        "SQL y Python",
+        "Automatización con Power Automate",
+        "Experiencia en análisis de datos y tableros de cartera"
+      ],
+      "idioma": "es",
+      "mercado": 94,
+      "final": 89,
+      "id": 1,
+      "correo": null,
+      "intentos": 1,
+      "aprobada": true
+    },
+    {
+      "titulo": "Junior AI Engineer (Computer Vision)",
+      "empresa": "VisionWorks",
+      "fuente": "Remotive",
+      "url": "https://demo.invalid/oferta/3",
+      "pasa": true,
+      "llm": 85,
+      "fortalezas": [
+        "Python avanzado",
+        "Experiencia con visión por computador y YOLO",
+        "Despliegue de modelos en tiempo real",
+        "1 año de experiencia profesional en IA y automatización",
+        "Inglés B1+"
+      ],
+      "idioma": "en",
+      "mercado": 79,
+      "final": 83,
+      "id": 3,
+      "correo": "jobs@visionworks.invalid",
+      "intentos": 1,
+      "aprobada": true
+    },
+    {
+      "titulo": "Senior Data Architect",
+      "empresa": "Big Corp",
+      "fuente": "Computrabajo",
+      "url": "https://demo.invalid/oferta/4",
+      "pasa": false
+    },
+    {
+      "titulo": "Data Analyst (Tableau, AWS)",
+      "empresa": "Cloudy",
+      "fuente": "Remotive",
+      "url": "https://demo.invalid/oferta/5",
+      "pasa": false
+    }
+  ],
+  "evaluador": [
+    {
+      "seg": 1.63,
+      "tokens": 2045
+    },
+    {
+      "seg": 16.08,
+      "tokens": 2073
+    },
+    {
+      "seg": 2.42,
+      "tokens": 2016
+    }
+  ],
+  "taller": [
+    {
+      "seg": 15.53,
+      "tokens": 6595
+    },
+    {
+      "seg": 78.86,
+      "tokens": 5397
+    },
+    {
+      "seg": 57.22,
+      "tokens": 4014
+    }
+  ],
+  "tokens_total": 22140,
+  "postulaciones": [
+    {
+      "id": 2,
+      "estado": "simulada",
+      "correo": null
+    },
+    {
+      "id": 3,
+      "estado": "simulada",
+      "correo": null
+    }
+  ],
+  "carta": {
+    "asunto": "Application for Junior AI Engineer (Computer Vision) – Carlos Andrés Galán Pérez",
+    "cuerpo": [
+      "Dear Hiring Team,",
+      "I am writing to apply for the Junior AI Engineer (Computer Vision) position at VisionWorks. In my recent role as a Computer Vision Consultant for Verytel SAS, I designed, trained, and deployed a real-time people detection and counting system using YOLO models on existing surveillance cameras. I optimized the models for high‑density urban scenarios, integrated live inference with monitoring dashboards, and delivered a functional prototype that operates on the client’s camera infrastructure. This experience directly aligns with your need for deploying real‑time detection models.",
+      "During my Data Analyst internship at Lactalis Colombia, I built end‑to‑end automation pipelines with Power Automate and SharePoint, demonstrating my ability to create reliable production workflows and document technical solutions for non‑technical users. My academic background in Applied Mathematics and Computer Science, combined with advanced Python skills and hands‑on projects in NLP and deep learning, provides a solid foundation for developing and scaling AI solutions.",
+      "I possess an upper‑intermediate level of English (B2) and am comfortable collaborating remotely across LATAM teams. I have attached my résumé for your review and look forward to discussing how my technical expertise and project experience can contribute to VisionWorks’ computer‑vision initiatives.",
+      "Sincerely,",
+      "Carlos Andrés Galán Pérez"
+    ]
+  }
+}

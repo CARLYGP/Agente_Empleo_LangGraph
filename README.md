@@ -1,5 +1,7 @@
 # Sistema multiagente de búsqueda y postulación de empleo (LangGraph)
 
+<p align="center"><img src="docs/portada.png" width="900" alt="Un equipo de agentes que busca empleo por ti"></p>
+
 Sistema que todos los días recorre 15 portales de empleo, filtra las ofertas que encajan con un
 perfil junior remoto en IA y datos, las evalúa con un LLM contra la hoja de vida, redacta y revisa una carta
 de presentación para las mejores y, **después de la aprobación del candidato**, se postula enviando la hoja de
@@ -8,8 +10,17 @@ vida por correo.
 Empezó como un script secuencial basado en reglas (`agente/portales.py`, la versión 1) y se reconstruyó como un
 grafo de LangGraph para agregarle agentes con LLM, paralelismo, persistencia y un punto de control humano.
 
-<p align="center"><img src="docs/demo.gif" width="860" alt="Demo: corrida, carta generada y aprobación"></p>
-<p align="center"><a href="docs/demo.mp4">Ver el video en MP4 (36 s)</a> · salida real de <code>python main.py --demo</code> con <code>openai/gpt-oss-120b</code></p>
+<p align="center"><img src="docs/demo.gif" width="760" alt="Tres agentes evaluadores con Groq calificando ofertas en paralelo"></p>
+<p align="center">
+  <a href="docs/agente_empleo.mp4"><b>▶ Ver el video completo (79 s)</b></a> ·
+  <a href="docs/demo.mp4">Salida real en la terminal (36 s)</a>
+</p>
+
+El video muestra cada nodo del grafo como un trabajador. Lo que hacen no es una recreación:
+[`docs/video/exportar.py`](docs/video/exportar.py) lee el estado final de la corrida `python main.py --demo` desde el
+checkpointer de LangGraph (puntajes, fortalezas, tiempos y tokens por agente) y la carta que se generó, y el video se arma
+con esos datos en [Remotion](https://www.remotion.dev/). La demo usa las ofertas ficticias de `tests/ofertas_demo.py`
+con el modelo real (`openai/gpt-oss-120b` en Groq).
 
 ![Arquitectura](docs/arquitectura.png)
 
@@ -90,6 +101,16 @@ python main.py --grafo         # diagrama Mermaid del grafo compilado
 pytest -q                      # 7 pruebas con un modelo falso: flujo, ciclo de revisión, citas, pausa y reanudación
 ```
 
+Para regenerar el video, la portada y la tarjeta animada:
+
+```bash
+python docs/video/exportar.py            # estado de la corrida demo → docs/video/src/datos.json
+cd docs/video
+npm install
+npx remotion render AgenteEmpleo ../agente_empleo.mp4
+npx remotion still PortadaBanner ../portada.png
+```
+
 Modelo por defecto: `openai/gpt-oss-120b` en Groq (plan gratuito). Las credenciales de Gmail (contraseña de
 aplicación) se leen de un JSON aparte que nunca se sube al repositorio.
 
@@ -102,7 +123,9 @@ agente/
   prompts.py    instrucciones de evaluador, redactor y revisor
   correo.py     resumen diario, extracción del correo de postulación y envío con adjunto
   portales.py   los 15 portales y los filtros por reglas (versión 1)
-docs/            diagrama, capturas, video y sus generadores (docs/fuentes)
+docs/            diagrama, capturas y videos
+  video/        proyecto Remotion del video (exportar.py lee la corrida demo)
+  fuentes/      salidas de terminal de la demo y el generador del video de terminal
   config.py     configuración y valores por defecto
 tests/          pruebas sin red con un modelo falso y ofertas ficticias
 main.py         línea de comandos
