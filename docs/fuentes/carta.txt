@@ -1,0 +1,14 @@
+# Junior AI Engineer (Computer Vision) | VisionWorks | https://demo.invalid/oferta/3
+# Canal: jobs@visionworks.invalid
+ASUNTO: Application for Junior AI Engineer (Computer Vision) – Carlos Andrés Galán Pérez
+
+Dear Hiring Team,
+
+I am writing to apply for the Junior AI Engineer (Computer Vision) position at VisionWorks. In my recent role as a Computer Vision Consultant for Verytel SAS, I designed, trained, and deployed a real-time people detection and counting system using YOLO models on existing surveillance cameras. I optimized the models for high‑density urban scenarios, integrated live inference with monitoring dashboards, and delivered a functional prototype that operates on the client’s camera infrastructure. This experience directly aligns with your need for deploying real‑time detection models.
+
+During my Data Analyst internship at Lactalis Colombia, I built end‑to‑end automation pipelines with Power Automate and SharePoint, demonstrating my ability to create reliable production workflows and document technical solutions for non‑technical users. My academic background in Applied Mathematics and Computer Science, combined with advanced Python skills and hands‑on projects in NLP and deep learning, provides a solid foundation for developing and scaling AI solutions.
+
+I possess an upper‑intermediate level of English (B2) and am comfortable collaborating remotely across LATAM teams. I have attached my résumé for your review and look forward to discussing how my technical expertise and project experience can contribute to VisionWorks’ computer‑vision initiatives.
+
+Sincerely,
+Carlos Andrés Galán Pérez

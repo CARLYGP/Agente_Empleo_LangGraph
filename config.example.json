@@ -1,0 +1,12 @@
+{
+  "groq_api_key": "PEGA_AQUI_TU_CLAVE_DE_GROQ",
+  "modelo": "openai/gpt-oss-120b",
+  "gmail_config": "../AgenteEmpleo/config.json",
+  "nombre": "Tu Nombre Completo",
+  "nombre_corto": "Nombre",
+  "cv_es": "C:/ruta/a/tu/hoja_de_vida_es.pdf",
+  "cv_en": "C:/ruta/a/tu/resume_en.pdf",
+  "modo_postulacion": "aprobacion",
+  "puntaje_minimo_carta": 70,
+  "max_postulaciones_dia": 5
+}

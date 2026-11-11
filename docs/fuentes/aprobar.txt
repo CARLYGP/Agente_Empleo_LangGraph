@@ -1,0 +1,5 @@
+2026-11-11 01:05:17  Postulación #2 Ingeniero de IA Junior (agentes LLM): simulada
+2026-11-11 01:05:17  Postulación #3 Junior AI Engineer (Computer Vision): simulada
+  Postulación #2 Ingeniero de IA Junior (agentes LLM): simulada (talento@andina-analytics.invalid)
+  Postulación #3 Junior AI Engineer (Computer Vision): simulada (jobs@visionworks.invalid)
+Tokens usados en total: 22,140. Resumen en C:\Users\sCAGP\AgenteEmpleoLangGraph\data\ultimo_resumen.html

@@ -1,0 +1,7 @@
+Candidato Demo
+Pregrado en Matemáticas Aplicadas y Ciencias de la Computación, menor en Inteligencia Artificial.
+Experiencia: Analista de Datos en una multinacional de alimentos (6 meses): Power BI, DAX, Power Automate, SharePoint, conciliación SAP.
+Consultor en Visión por Computador (5 meses): detección y conteo de personas en tiempo real con YOLO.
+Proyectos: chatbot con LLM y APIs, análisis de sentimiento con NLP, base de datos en PostgreSQL.
+Habilidades: Python (avanzado), SQL, R, aprendizaje automático, visión por computador, NLP, LLM.
+Idiomas: Español nativo, Inglés B1+.

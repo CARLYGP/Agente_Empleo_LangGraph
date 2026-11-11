@@ -1,0 +1,10 @@
+langgraph==1.2.20
+langgraph-checkpoint-sqlite==3.1.3
+langchain-groq==1.1.3
+pydantic==2.12.5
+pydantic-core==2.41.5
+pypdf==7.0.1
+pytest
+# solo para regenerar el video de docs/
+pillow
+imageio-ffmpeg

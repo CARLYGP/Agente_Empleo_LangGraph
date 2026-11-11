@@ -1,0 +1,12 @@
+Hilo demo-20261111-010315 | modelo: openai/gpt-oss-120b | modo: aprobacion | PRUEBA
+2026-11-11 01:03:15  Computrabajo: 3 ofertas
+2026-11-11 01:03:15  Remotive: 2 ofertas
+2026-11-11 01:03:15  Filtro: 5 revisadas, 4 por título, 3 pasan | {'sin ficha': 0, 'no remota': 0, 'fuera de Colombia/LATAM': 0, 'mucha experiencia': 1, 'poco afín': 0}
+
+3 postulaciones esperan tu aprobación (cupo de hoy: 5):
+  #1 [89] Analista de Datos Junior - Power BI | Lácteos del Valle | portal (manual)
+  #2 [84] Ingeniero de IA Junior (agentes LLM) | Andina Analytics SAS | correo a talento@andina-analytics.invalid
+  #3 [83] Junior AI Engineer (Computer Vision) | VisionWorks | correo a jobs@visionworks.invalid
+
+Cartas en C:\Users\sCAGP\AgenteEmpleoLangGraph\data\cartas\demo-20261111-010315. Para enviar: python main.py --aprobar 1,3
+Tokens usados en total: 22,140. Resumen en C:\Users\sCAGP\AgenteEmpleoLangGraph\data\ultimo_resumen.html
