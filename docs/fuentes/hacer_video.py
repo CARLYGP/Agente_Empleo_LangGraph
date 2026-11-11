@@ -131,7 +131,7 @@ def portada(titulo, sub, frames, seg=3, pie=""):
 def main():
     leer = lambda n: (AQUI / n).read_text(encoding="utf-8").splitlines()
     frames = []
-    portada("Agente multiagente de empleo", "LangGraph · LLM · humano en el ciclo", frames)
+    portada("Sistema multiagente de empleo", "LangGraph · LLM · humano en el ciclo", frames)
     escena_imagen(DOCS / "arquitectura.png", "Arquitectura", frames, seg=6)
     escena_terminal(["$ python main.py --demo"] + leer("corrida.txt"), "Corrida diaria (demo sin internet)", frames)
     escena_carta((AQUI / "carta.txt").read_text(encoding="utf-8"), frames)

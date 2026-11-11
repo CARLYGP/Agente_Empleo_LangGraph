@@ -1,6 +1,6 @@
-# Agente multiagente de búsqueda y postulación de empleo (LangGraph)
+# Sistema multiagente de búsqueda y postulación de empleo (LangGraph)
 
-Sistema de agentes que todos los días recorre 15 portales de empleo, filtra las ofertas que encajan con un
+Sistema que todos los días recorre 15 portales de empleo, filtra las ofertas que encajan con un
 perfil junior remoto en IA y datos, las evalúa con un LLM contra la hoja de vida, redacta y revisa una carta
 de presentación para las mejores y, **después de la aprobación del candidato**, se postula enviando la hoja de
 vida por correo.

@@ -1,4 +1,4 @@
-"""Agente multiagente de búsqueda y postulación de empleo (LangGraph).
+"""Sistema multiagente de búsqueda y postulación de empleo (LangGraph).
 
 Uso:
     python main.py                 corrida diaria: busca, evalúa, redacta, te manda el resumen y queda
